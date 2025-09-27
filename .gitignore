@@ -193,4 +193,4 @@ challenge/
 
 # WandB local sync data.
 wandb/
-
+.devbox

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.16.0/.schema/devbox.schema.json",
+  "packages": [
+    "python312@latest",
+    "python312Packages.python-dotenv@latest",
+    "python312Packages.jupyterlab@latest",
+    "python312Packages.ipywidgets@latest",
+    "python312Packages.requests@latest",
+    "python312Packages.numpy@latest",
+    "python312Packages.pandas@latest",
+    "python312Packages.scipy@latest",
+    "python312Packages.scikit-learn@latest",
+    "python312Packages.matplotlib@latest",
+    "python312Packages.gensim@latest",
+    "python312Packages.torch@latest",
+    "python312Packages.transformers@latest",
+    "python312Packages.tqdm@latest",
+    "python312Packages.openai@latest",
+    "python312Packages.gradio@latest",
+    "python312Packages.langchain@latest",
+    "python312Packages.langchain-core@latest",
+    "python312Packages.langchain-text-splitters@latest",
+    "python312Packages.langchain-openai@latest",
+    "python312Packages.langchain-chroma@latest",
+    "python312Packages.langchain-community@latest",
+    "python312Packages.datasets@3.6.0",
+    "python312Packages.google-generativeai@latest",
+    "python312Packages.anthropic@latest",
+    "python312Packages.chromadb@latest",
+    "python312Packages.plotly@latest",
+    "python312Packages.beautifulsoup4@latest",
+    "python312Packages.pydub@latest",
+    "python312Packages.ollama@latest",
+    "python312Packages.psutil@latest",
+    "python312Packages.setuptools@latest",
+    "python312Packages.speedtest-cli@latest",
+    "python312Packages.sentence-transformers@latest",
+    "python312Packages.feedparser@latest",
+    "python312Packages.wandb@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      ". $VENV_DIR/bin/activate",
+      "pip install --upgrade pip > /dev/null",
+      "pip install jupyter-dash > /dev/null",
+      "pip install modal > /dev/null"
+    ]
+  }
+}
