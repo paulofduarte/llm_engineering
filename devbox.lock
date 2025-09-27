@@ -5,6 +5,54 @@
       "last_modified": "2025-09-25T01:21:52Z",
       "resolved": "github:NixOS/nixpkgs/e57b3b16ad8758fd681511a078f35c416a8cc939?lastModified=1758763312&narHash=sha256-puBMviZhYlqOdUUgEmMVJpXqC%2FToEqSvkyZ30qQ09xM%3D"
     },
+    "ollama@latest": {
+      "last_modified": "2025-09-21T09:21:16Z",
+      "resolved": "github:NixOS/nixpkgs/a1f79a1770d05af18111fbbe2a3ab2c42c0f6cd0#ollama",
+      "source": "devbox-search",
+      "version": "0.12.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xv9pnglx70sid3i8l8m4yj4lri68r5sm-ollama-0.12.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xv9pnglx70sid3i8l8m4yj4lri68r5sm-ollama-0.12.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/11j7ngq2al14v16nqrydfw0amrf3hm13-ollama-0.12.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/11j7ngq2al14v16nqrydfw0amrf3hm13-ollama-0.12.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lzlhqz95imfh4q9lgqk7g5av36whij57-ollama-0.12.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/lzlhqz95imfh4q9lgqk7g5av36whij57-ollama-0.12.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rdsfqqjax2ac1yjzj25rizkg3qr84wcg-ollama-0.12.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rdsfqqjax2ac1yjzj25rizkg3qr84wcg-ollama-0.12.0"
+        }
+      }
+    },
     "python312@latest": {
       "last_modified": "2025-09-18T16:33:27Z",
       "plugin_version": "0.0.4",

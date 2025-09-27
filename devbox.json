@@ -36,7 +36,9 @@
     "python312Packages.speedtest-cli@latest",
     "python312Packages.sentence-transformers@latest",
     "python312Packages.feedparser@latest",
-    "python312Packages.wandb@latest"
+    "python312Packages.wandb@latest",
+
+    "ollama@latest"
   ],
   "shell": {
     "init_hook": [
