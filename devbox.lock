@@ -1,9 +1,157 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "ffmpeg@latest": {
+      "last_modified": "2025-09-21T09:21:16Z",
+      "resolved": "github:NixOS/nixpkgs/a1f79a1770d05af18111fbbe2a3ab2c42c0f6cd0#ffmpeg",
+      "source": "devbox-search",
+      "version": "7.1.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/jmqj53kc4bl9fygf9nqwjxnmmkbm1mzf-ffmpeg-7.1.1-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/4lws86g7n6jz3zskzdqhldffv0pjfgmh-ffmpeg-7.1.1-man",
+              "default": true
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/pgqkaphvylscnlyrxlaqps2134nz3b2v-ffmpeg-7.1.1-lib"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/lsyxzf62f5a15linlml5xianxzpysj7r-ffmpeg-7.1.1"
+            },
+            {
+              "name": "data",
+              "path": "/nix/store/snkhcygf72yv9qg2a47haim7zy00gg99-ffmpeg-7.1.1-data"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/r1gz8dp0jf4v66pn2an6294sy1xv0c26-ffmpeg-7.1.1-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/nwxh0cvwm3ycikd84c4n9zyvyn00qb95-ffmpeg-7.1.1-doc"
+            }
+          ],
+          "store_path": "/nix/store/jmqj53kc4bl9fygf9nqwjxnmmkbm1mzf-ffmpeg-7.1.1-bin"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/9i66jfhn8wpcynja8dcig110aals2281-ffmpeg-7.1.1-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/w52d3d2v6l0yghd83d99x1606p84qyb7-ffmpeg-7.1.1-man",
+              "default": true
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/y86b8x7vlw9rdm370mf9jnc7ynkx5kmd-ffmpeg-7.1.1"
+            },
+            {
+              "name": "data",
+              "path": "/nix/store/p20xyc82m2rq1k66sj5y3fpj97rxvwdg-ffmpeg-7.1.1-data"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/aikdjp0vj9fwx60i7a5jy1hq0y3y488x-ffmpeg-7.1.1-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/6m0yvnmldvjsm268na2715099xq0w8w0-ffmpeg-7.1.1-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/ir0r62d9rz0spb6m7wl2hsgaw6n1plq1-ffmpeg-7.1.1-lib"
+            }
+          ],
+          "store_path": "/nix/store/9i66jfhn8wpcynja8dcig110aals2281-ffmpeg-7.1.1-bin"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/1iknxvspr89b8m29vdavypf4snvyrgcx-ffmpeg-7.1.1-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/cvyvfqdbcf1sr9cj0abay1b0gvjbg3qa-ffmpeg-7.1.1-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/c6nj7hs0397d1rxg9mc8k7nwng9bnbxc-ffmpeg-7.1.1-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/cdn9k6kblybcfdiy4mvv3f77gnw8fdc5-ffmpeg-7.1.1-lib"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/amcgj73szn77dp7m1hndmkaqxva2z5sr-ffmpeg-7.1.1"
+            },
+            {
+              "name": "data",
+              "path": "/nix/store/p3nwxhzg8srvlm3ycdlzjw1yvw7chz26-ffmpeg-7.1.1-data"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/3hv45q1ahh1w9x76wbhw0m8nhmcn42bb-ffmpeg-7.1.1-dev"
+            }
+          ],
+          "store_path": "/nix/store/1iknxvspr89b8m29vdavypf4snvyrgcx-ffmpeg-7.1.1-bin"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/4m1xmd2k2qs02j042gf7fszjqnfamfr6-ffmpeg-7.1.1-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/0r3zndxydivdp0rfpchp5slbcx8fsnw9-ffmpeg-7.1.1-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/zidjazd1kdpacyb09bwcbcv5l937mnvi-ffmpeg-7.1.1-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/akjky0ciy9km8aar4l6kx7q9w1jn53n6-ffmpeg-7.1.1-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/wxjs6sb18xkfx3dgwrlmg2z77jn98iqa-ffmpeg-7.1.1-lib"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/w9yb1148hwqffzmi7iimqydz561riic3-ffmpeg-7.1.1"
+            },
+            {
+              "name": "data",
+              "path": "/nix/store/fig2vakrby4hlqad56skwn7ic0fw117v-ffmpeg-7.1.1-data"
+            }
+          ],
+          "store_path": "/nix/store/4m1xmd2k2qs02j042gf7fszjqnfamfr6-ffmpeg-7.1.1-bin"
+        }
+      }
+    },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2025-09-25T01:21:52Z",
-      "resolved": "github:NixOS/nixpkgs/e57b3b16ad8758fd681511a078f35c416a8cc939?lastModified=1758763312&narHash=sha256-puBMviZhYlqOdUUgEmMVJpXqC%2FToEqSvkyZ30qQ09xM%3D"
+      "last_modified": "2025-09-28T14:42:27Z",
+      "resolved": "github:NixOS/nixpkgs/647e5c14cbd5067f44ac86b74f014962df460840?lastModified=1759070547&narHash=sha256-JVZl8NaVRYb0%2B381nl7LvPE%2BA774%2FdRpif01FKLrYFQ%3D"
     },
     "ollama@latest": {
       "last_modified": "2025-09-21T09:21:16Z",

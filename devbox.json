@@ -38,14 +38,15 @@
     "python312Packages.feedparser@latest",
     "python312Packages.wandb@latest",
 
-    "ollama@latest"
+    "ollama@latest",
+    "ffmpeg@latest"
   ],
   "shell": {
     "init_hook": [
       ". $VENV_DIR/bin/activate",
-      "pip install --upgrade pip > /dev/null",
-      "pip install jupyter-dash > /dev/null",
-      "pip install modal > /dev/null"
+      "pip install -U pip > /dev/null",
+      "pip install -U jupyter-dash > /dev/null",
+      "pip install -U modal > /dev/null"
     ]
   }
 }
